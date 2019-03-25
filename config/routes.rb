@@ -6,5 +6,6 @@ Rails.application.routes.draw do
   post "/rides/new", to: "rides#new"
   resources :attractions
   resources :users
+  get '/sessions/destroy', to: "sessions#destroy"
 
 end
