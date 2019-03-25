@@ -26,7 +26,6 @@ class UsersController < ApplicationController
       :tickets,
       :happinesss,
       :nausea,
-      :admin
-      )
+      :admin)
     end
 end
