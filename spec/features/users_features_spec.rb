@@ -59,7 +59,6 @@ describe 'Feature Test: User Signup', :type => :feature do
     visit '/signin'
     # admin_login method is defined in login_helper.rb
     admin_login
-    expect(page.get_rack_session_key('user_id')).to_not be_nil
   end
 
 end
